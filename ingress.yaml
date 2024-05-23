@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: custumbuild
+            name: custombuild-nodeport
             port:
               number: 80

@@ -13,7 +13,7 @@ spec:
         app: custumbuild
     spec:
       containers:
-        - name: addressbook-container
+        - name: custumbuild
           image: chandanagirirajkumar/custumbuild:v6
           ports:
             - containerPort: 80

@@ -13,7 +13,7 @@ spec:
         app: custumbuild
     spec:
       containers:
-        - name: custumbuild_container
+        - name: custum-build-container
           image: chandanagirirajkumar/custumbuild:v6
           ports:
             - containerPort: 80
